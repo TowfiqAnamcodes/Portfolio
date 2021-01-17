@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; 
+}
+
+
+li, a{
+    font-family: 'Arial';
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #827A7A;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #827A7A;
+    height: 60px;
+}
+
+#logo{
+    font-size: 32px;
+    font-family: 'Lato';
+    cursor: pointer;
+    background-color: #827A7A;
+    margin-left: -80px;
+}
+
+.nav-links{
+    list-style: none;
+    background-color: #827A7A;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 11px;
+}
+
+
+.nav-links li a {
+    transition: all 0.2s ease 0s;
+}
+.nav-links li a:hover {
+    color: #424040;
+}
+
+#heading{
+    background-color: #C4C4C4;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 322.5px;
+    height: 37.5px;
+}
+#textarea{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #C4C4C4;
+    width: 321.5px;
+    height: 127.5px;
+}
+span{
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: bold;
+    position: relative;
+    left: 524px;
+}
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Roboto';
+}
+input {
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form{
+    margin-top: 220px;
+} 
+.btn{
+    padding: 10px;
+    border-radius: 48px;
+    position: relative;
+    top: 42px;
+    left: 46%;
+    width: 94.5px;
+    line-height: 10%;
+    height: 30px;
+    font-size: 18px ;
+    background-color: #717171;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #888888;
+}
+
+.contact-page-title{
+    text-align: center;
+    position: relative;
+    bottom: 390px;
+    font-family: 'Lato';
+    font-size: 48px;
+}

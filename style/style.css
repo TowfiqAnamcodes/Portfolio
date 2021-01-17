@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+li, a{
+    font-family: 'Arial';
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #827A7A;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #827A7A;
+    height: 60px;
+}
+
+#logo{
+    font-size: 32px;
+    font-family: 'Lato';
+    cursor: pointer;
+    background-color: #827A7A;
+    margin-left: -80px;
+}
+
+.nav-links{
+    list-style: none;
+    background-color: #827A7A;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 11px;
+}
+
+
+.nav-links li a {
+    transition: all 0.2s ease 0s;
+}
+.nav-links li a:hover {
+    color: #424040;
+}
+.landing-page-title{
+    text-align: center;
+    margin-top: 57.5px;
+    margin-left: -18px;
+    font-family: 'Lato';
+    font-size: 48px;
+
+}
+
+.landing-page-para{
+    font-size: 21px;
+    font-family: 'Lato';
+    font-weight: bold;
+    margin-left: 498px;
+    margin-top: 70px;
+}
+

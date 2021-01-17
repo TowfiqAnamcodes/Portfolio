@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+li, a{
+    font-family: 'Arial';
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #827A7A;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #827A7A;
+    height: 60px;
+}
+
+#logo{
+    font-size: 32px;
+    font-family: 'Lato';
+    cursor: pointer;
+    background-color: #827A7A;
+    margin-left: -80px;
+}
+
+.nav-links{
+    list-style: none;
+    background-color: #827A7A;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 11px;
+}
+
+
+.nav-links li a {
+    transition: all 0.2s ease 0s;
+}
+.nav-links li a:hover {
+    color: #424040;
+}
+.landing-page-title{
+    text-align: center;
+    margin-top: 23px;
+    font-family: 'Lato';
+    font-size: 48px;
+
+}
+
+.landing-page-img{
+    width: 610.5px;
+    height: 423px;
+    display: block;
+    margin: 44px 362px auto;
+}
+
+
+.about-page-title{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 36px;
+    margin-top: 53px;
+}
+
+
+.about-page-para{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Metrophobic';
+    font-size: 27px;
+    margin-left: 34px;
+}
